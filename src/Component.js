@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import copy from 'copy-to-clipboard';
+import copy from '@nosplatform/copy-to-clipboard';
 
 
 export class CopyToClipboard extends React.PureComponent {

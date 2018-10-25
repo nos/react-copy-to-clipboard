@@ -13,13 +13,13 @@ describe('CopyToClipboard', () => {
 
 
   beforeEach(() => {
-    copy = jasmine.createSpy('copy-to-clipboard');
+    copy = jasmine.createSpy('@nosplatform/copy-to-clipboard');
     onCopy = jasmine.createSpy('onCopy');
   });
 
 
   beforeEach(() => CopyToClipboard = CopyToClipboardInjector({
-    'copy-to-clipboard': copy
+    '@nosplatform/copy-to-clipboard': copy
   }));
 
   beforeEach(() => {
