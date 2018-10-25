@@ -2,6 +2,13 @@
 # yarn lockfile v1
 
 
+"@nosplatform/copy-to-clipboard@^3":
+  version "3.0.8"
+  resolved "https://registry.npmjs.org/@nosplatform/copy-to-clipboard/-/copy-to-clipboard-3.0.8.tgz#f814dce19c1f48724c3b370621c3a93d2209bedf"
+  integrity sha512-ksnZqBwDRsb9ECk0hOEjN0JeUvUAAxGo33evl3bJsVA5FhiJd/urfccNcxcbbv4qXKFq7K5j3cVJXdfq7ufvrA==
+  dependencies:
+    toggle-selection "^1.0.3"
+
 abbrev@1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/abbrev/-/abbrev-1.1.1.tgz#f8f2c887ad10bf67f634f005b6987fed3179aac8"
@@ -1865,12 +1872,6 @@ cookie@0.3.1:
   version "0.3.1"
   resolved "https://registry.yarnpkg.com/cookie/-/cookie-0.3.1.tgz#e7e0a1f9ef43b4c8ba925c5c5a96e806d16873bb"
   integrity sha1-5+Ch+e9DtMi6klxcWpboBtFoc7s=
-
-"copy-to-clipboard@https://github.com/nos/copy-to-clipboard":
-  version "3.0.8"
-  resolved "https://github.com/nos/copy-to-clipboard#36317d449d4c536e9f795ac65fb7bd0b475fe3bb"
-  dependencies:
-    toggle-selection "^1.0.3"
 
 core-js@^1.0.0:
   version "1.2.7"
